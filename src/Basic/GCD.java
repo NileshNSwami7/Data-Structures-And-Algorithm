@@ -29,7 +29,7 @@ public class GCD {
 		return a;
 	}
 	
-	//Optimal approach of Euclid's Algorithm 
+	//Optimized approach of Euclid's Algorithm having time complexity O(log(min(a,b))
 	
 	public static int optEuclidGcd(int a,int b) {
 		while(a!=0 && b!=0) {
